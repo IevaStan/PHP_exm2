@@ -1,13 +1,16 @@
 <?php
+namespace PhpExam\Task2;
+
+use DateTime;
 
 class CinemaTicket 
 {
     public string $movieName;
     public string $location;
-    public datetime $date;
+    public DateTime $date;
     public float $price;
 
-    public function __construct(string $movieName, string $location, datetime $date, float $price)
+    public function __construct(string $movieName, string $location, DateTime $date, float $price)
     {
         $this->movieName = $movieName;
         $this->location = $location;

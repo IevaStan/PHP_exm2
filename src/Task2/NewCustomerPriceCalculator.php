@@ -1,4 +1,6 @@
 <?php
+namespace PhpExam\Task2;
+
 
 class NewCustomerPriceCalculator implements TotalCalculatorInterface {
     public function calculatePrice(array $tickets) {

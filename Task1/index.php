@@ -1,8 +1,9 @@
 <?php
+use PhpExam\Task1\Employee;
+use PhpExam\Task1\Intern;
+use PhpExam\Task1\Manager;
 
-include_once "Employee.php";
-include_once "Intern.php";
-include_once "Manager.php";
+require_once "../vendor/autoload.php";
 
 $intern = new Intern("Jonas Jonaitis", 3450);
 echo $intern. PHP_EOL;

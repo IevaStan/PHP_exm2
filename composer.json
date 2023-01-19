@@ -1,0 +1,15 @@
+{
+    "name": "kaciukai/19_php_exam",
+    "autoload": {
+        "psr-4": {
+            "PhpExam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IevaStan",
+            "email": "101921345+IevaStan@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

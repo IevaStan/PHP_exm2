@@ -1,11 +1,11 @@
 <?php
+use PhpExam\Task2\CinemaTicket;
+use PhpExam\Task2\StandardPriceCalculator;
+use PhpExam\Task2\SubscriberPriceCalculator;
+use PhpExam\Task2\NewCustomerPriceCalculator;
+use PhpExam\Task2\OrderProcessor;
 
-include_once "CinemaTicket.php";
-include_once "TotalCalculatorInterface.php";
-include_once "StandardPriceCalculator.php";
-include_once "SubscriberPriceCalculator.php";
-include_once "NewCustomerPriceCalculator.php";
-include_once "OrderProcessor.php";
+require_once "../vendor/autoload.php";
 
 $ticket1 = new CinemaTicket("Lorem Ipsum", "Kaunas", new DateTime, 10);
 $ticket2 = new CinemaTicket("Sit Amet", "Kaunas", new DateTime, 14);

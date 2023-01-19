@@ -1,4 +1,6 @@
 <?php
+namespace PhpExam\Task2;
+
 
 interface TotalCalculatorInterface 
 { 

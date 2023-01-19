@@ -1,4 +1,5 @@
 <?php
+namespace PhpExam\Task1;
 
 class Employee
 {

@@ -1,4 +1,5 @@
 <?php
+namespace PhpExam\Task1;
 
 class Manager extends Employee {
     public const EMPLOYEE_TYPE = 2;

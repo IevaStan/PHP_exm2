@@ -1,4 +1,6 @@
 <?php
+namespace PhpExam\Task2;
+
 
 class OrderProcessor {
     public array $items;
