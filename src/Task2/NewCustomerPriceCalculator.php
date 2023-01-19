@@ -3,7 +3,7 @@ namespace PhpExam\Task2;
 
 
 class NewCustomerPriceCalculator implements TotalCalculatorInterface {
-    public function calculatePrice(array $tickets) {
+    public function calculatePrice(array $tickets): float {
         $total = 0;
         foreach ($tickets as $ticket) {
             if($ticket === $tickets[0]) {

@@ -27,7 +27,7 @@ echo $standardOrderProcessor->calculatePrice() . " - standartinio užsakymo kain
 $subscriberOrderProcessor->addItem($ticket1);
 $subscriberOrderProcessor->addItem($ticket2);
 $subscriberOrderProcessor->addItem($ticket3);
-echo $subscriberOrderProcessor->calculatePrice() . " - prenumerato užsakymo kaina" . PHP_EOL;
+echo $subscriberOrderProcessor->calculatePrice() . " - prenumeratoriaus užsakymo kaina" . PHP_EOL;
 
 $newCustomerOrderProcessor->addItem($ticket1);
 $newCustomerOrderProcessor->addItem($ticket2);

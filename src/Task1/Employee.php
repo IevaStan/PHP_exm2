@@ -1,4 +1,5 @@
 <?php
+
 namespace PhpExam\Task1;
 
 class Employee
@@ -15,25 +16,25 @@ class Employee
         $this->salary = $salary;
         $this->id = rand();
     }
-    public function getExperience()
+    public function getExperience(): int
     {
         return $this->experience;
     }
-    public function setExperience(int $experience)
+    public function setExperience(int $experience): void
     {
         $this->experience = $experience;
     }
 
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
-    public function calculateSalary()
+    public function calculateSalary(): float
     {
         return $this->salary;
     }
 
-    public function __toString()
+    public function __toString(): string
     {
         return "Darbuotojas {$this->id}: {$this->name} - {$this->salary}";
     }

@@ -10,15 +10,15 @@ class OrderProcessor {
         $this->calculator = $calculator;
     }
 
-    public function addItem(CinemaTicket $ticket) {
+    public function addItem(CinemaTicket $ticket): void {
         $this->items[] = $ticket;
     }
 
-    public function getList() {
+    public function getList(): array {
         return $this->items;
     }
 
-    public function calculatePrice():float {
+    public function calculatePrice(): float {
         return $this->calculator->calculatePrice($this->items);
     }
 }
