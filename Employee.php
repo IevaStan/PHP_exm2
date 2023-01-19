@@ -44,6 +44,6 @@ class Employee
 
     public static function getTypeDescription(): string
     {
-        return "Darbuotojo tipas " . self::EMPLOYEE_TYPE;
+        return "Darbuotojo tipas " . static::EMPLOYEE_TYPE;
     }
 }
