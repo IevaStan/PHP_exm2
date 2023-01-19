@@ -1,7 +1,6 @@
 <?php
 
 interface TotalCalculatorInterface 
-{
-    public function calculatePrice();
-    
+{ 
+    public function calculatePrice(array $tickets);
 }
